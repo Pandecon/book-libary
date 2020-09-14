@@ -1,0 +1,137 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+#header{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border: 1px solid;
+
+}
+
+#header-text{
+    margin: auto;
+}
+button{
+    width:100px;
+    height: 50px;
+}
+
+#btn-newBook{
+    border: 1px solid;
+}
+
+#div-Btn{
+    float: right;
+    display: flex;
+    border:1px solid;
+    height: 100%;
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0 , 0, 0.4);
+}
+
+.modal-content{
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid;
+    width: 300px;
+    height: 500px;
+}
+
+
+.close{
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    border: 1px solid;
+}
+
+
+.close:hover, 
+.close:focus{
+    color: black;
+    text-decoration: none;
+    cursor: grab;
+}
+
+.div-form{
+    display: flex;
+    flex-flow: column;
+}
+
+input{
+    width: 97%;
+    height: 30px;
+    margin: 10px 0 10px 0;
+}
+#submit-btn{
+    width: 100%;
+    margin-top: 30px;
+}
+
+select{
+    width: 100%;
+    height: 35px;
+    font-size: 20px;
+}
+
+#book-libary{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.book{
+    width: 200px;
+    height: 300px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+}
+
+.bookdata{
+    width: 100%;
+    height: 20%;
+    align-items: center;
+}
+
+#btn-read{
+    width: 100px;
+    height: 40px;
+    align-items: center;
+}
+
+#delete{
+    text-align: end;
+}
+
+.x{
+    border: 1px solid;
+}
+
+.x:hover, .x:focus{
+    color: black;
+    text-decoration: none;
+    cursor: grab;
+
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Book Libary</title>
+    </head>
+    <body>
+        <div id="header">
+            <div id="header-text"> 
+                Book Libary
+            </div> 
+            <div id="div-Btn">
+                <button id="btn-newBook">New Book</button>
+            </div>
+        </div>
+        <div id="book-libary"></div>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Add a Book</p>
+                <div class="div-form">
+                    <form id="myForm">
+                        <label>Title:</label><br>
+                        <input type="text" id="title" required>
+                        <label>Author:</label><br>
+                        <input type="text" id="author" required>
+                        <label>Pages:</label><br>
+                        <input type="number" id="pages" required>
+                        <label>Read:</label><br>
+                        <input type="checkbox" id="read">
+                        <button id="submit-btn" type="button">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
